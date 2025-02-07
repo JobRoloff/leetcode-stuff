@@ -20,3 +20,5 @@ _Explain your strategy or outline here._
 
 ## Additional Notes
 _Any screenshots, runtimes, or solutions you want to note._
+
+## Time to Complete (min)
