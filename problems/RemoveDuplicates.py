@@ -12,9 +12,9 @@ def removeDuplicates(s: str):
     seen = set()
 
     # map to store the count of each char
-    count = {
-        char: s.count(char) for char in s
-        }
+    count = {}
+    for char in s:
+        count[char] = count.get(char, 0) + 1
 
     for char in s:
         # decrement the count of the char because we're curretnly using it
